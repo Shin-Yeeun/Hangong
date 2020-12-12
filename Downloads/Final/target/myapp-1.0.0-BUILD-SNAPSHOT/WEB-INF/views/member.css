@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+#list {
+	border-collapse: separate;
+	text-align: center;
+	line-height: 1.5;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 1px solid #e7708d;;
+	margin: 20px 10px;
+}
+#list td, #list th {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+#list tr:nth-child(even){
+border-right: 1px solid #ccc;
+border-left: 1px solid #ccc;
+background: #fcf1f4;
+}
+#list tr:hover {
+padding: 10px;
+font-weight: bold;
+vertical-align: top;
+color: #7b6f7b;
+}
+#list th {
+  width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #e7708d;
+}
+#edit {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align:center;
+}
+#edit td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#edit td:nth-child(1) {
+  width:100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #e7708d;
+  color: white;
+}
+
+.photo {max-width:400px;}
